@@ -10,8 +10,10 @@ cd ~/catkin_ws/src/rpg_corner_events
 source the required files:
 source ~/catkin_ws/devel/setup.bash
 
-Build the detector and launch it:
+Build the detector:
 catkin build corner_event_detector
+
+and launch it:
 roslaunch corner_event_detector bag.launch
 
 This allows you to run the corner tracker on a bag file in a second terminal using:
