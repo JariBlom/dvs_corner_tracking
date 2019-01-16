@@ -18,5 +18,7 @@ roslaunch corner_event_detector bag.launch
 
 This allows you to run the corner tracker on a bag file in a second terminal using:
 cd bag_file_location
+
 source ~/catkin_ws/devel/setup.bash
+
 rosbag play bagfile.bag
